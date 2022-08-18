@@ -1,0 +1,26 @@
+#ContainerView @ mcdchk.net
+
+Glow:
+  #Duration of the glowing effect.
+  Time: 10
+  #In this radius of the player, containers glow.
+  Radius: 10
+  #The maximum number of containers that glow at once.
+  #The amount of colors you've set below cannot exceed this number.
+  MaxContainers: 16
+  #Glow color of dropper.
+  #Remove the unwanted color you want.
+  ColorsDropper: [ GREEN, DARK_GREEN, RED, DARK_RED, GOLD, BLUE, AQUA, DARK_AQUA, YELLOW, WHITE, DARK_BLUE, LIGHT_PURPLE, DARK_PURPLE, BLACK, GRAY, DARK_GRAY ]
+  #Glow color of dispenser.
+  #Remove the unwanted color you want.
+  ColorsDispenser: [ GREEN, DARK_GREEN, RED, DARK_RED, GOLD, BLUE, AQUA, DARK_AQUA, YELLOW, WHITE, DARK_BLUE, LIGHT_PURPLE, DARK_PURPLE, BLACK, GRAY, DARK_GRAY ]
+
+Messages:
+  NotFound: "§7Cannot find a container around you..."
+  ContainerFound: "▣-§7Container Preview §f§nX:%X% Y:%Y% Z:%Z%§e [click to view]" #Do not remove the - , keep it plz.
+  GUITitleDropper: "§0Previewing Dropper..."
+  GUITitleDispenser: "§0Previewing Dispenser..."
+  OpenedDropper: "§7You've started dropper preview!"
+  OpenedDispenser: "§7You've started dispenser preview!"
+  HoverText: "§7Click to preview!"
+  Spacer: "§7The container around you is now glowing§8:"

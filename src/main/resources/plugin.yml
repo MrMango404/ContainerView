@@ -1,0 +1,10 @@
+name: ContainerView
+version: '${project.version}'
+main: net.mcdchk.containerview.ContainerView
+api-version: 1.19
+authors: [ MrMango404 ]
+description: Plugins preview what's inside containers
+website: mcdchk.net
+commands:
+  cview:
+  cviewc:
